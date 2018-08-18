@@ -7,7 +7,7 @@ target 'ToTheMovieDB' do
 
   # Pods for ToTheMovieDB
   pod 'Alamofire', '~> 4.5'
-  pod 'AlamofireObjectMapper', '~> 4.1'
+  pod 'AlamofireObjectMapper', '~> 5.0'
 
   target 'ToTheMovieDBTests' do
     inherit! :search_paths

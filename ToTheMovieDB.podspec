@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.dependency 	     'Alamofire', '~> 4.5'
-  s.dependency       'AlamofireObjectMapper', '~> 4.1'
+  s.dependency       'AlamofireObjectMapper', '~> 5.0'
 
   s.source_files     = 'Source/*.swift'
   s.frameworks       = 'UIKit'
